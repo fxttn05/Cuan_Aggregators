@@ -90,7 +90,7 @@
     </header>
     
     {{-- content --}}
-    <div class="container-md" style="margin-top: 8rem">
+    <div class="container-md" style="margin-top: 7rem">
         @yield('content')
     </div>
 
