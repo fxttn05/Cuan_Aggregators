@@ -191,7 +191,6 @@
 </div>
 
 {{-- section 3 --}}
-
 <div class="col-12" style="margin-top: 4rem">
 
     <div class="row justify-content-around">
@@ -202,30 +201,62 @@
             <img src="{{asset('assets/Step.png')}}" class="card-img-center p-1 rounded-4 img-fluid mb-3" alt="Memilih Produk" >
             <div class="card-body">
                 <h6>Memilih Produk</h6>
-                <p class="card-text">Pilih salah satu produk finansial yang Anda inginkan disini</p>
+                <p class="card-text" style="font-size: 10px">Pilih salah satu produk finansial yang Anda inginkan disini</p>
             </div>
         </div>
         <div class=" col-6 col-lg-3 text-center" >
             <img src="{{asset('assets/Step2.png')}}" class="card-img-center p-1 rounded-4 img-fluid mb-3" alt="Konsultasi Dengan Kami photo" >
             <div class="card-body">
                 <h6>Konsultasi Dengan Kami</h6>
-                <p class="card-text">Anda akan dihubungi oleh Loan Adviser kami untuk berkonsultasi mengenai langkah kedepannya</p>
+                <p class="card-text" style="font-size: 10px">Anda akan dihubungi oleh Loan Adviser kami untuk berkonsultasi mengenai langkah kedepannya</p>
             </div>
         </div>
         <div class=" col-6 col-lg-3 text-center" >
             <img src="{{asset('assets/Step3.png')}}" class="card-img-center p-1 rounded-4 img-fluid mb-3" alt="Mengisi Data photo" >
             <div class="card-body">
                 <h6>Mengisi Data</h6>
-                <p class="card-text">SLengkapi data dan dokumen pendukung yang diperlukan sesuai arahan Loan Adviser kami</p>
+                <p class="card-text" style="font-size: 10px">Lengkapi data dan dokumen pendukung yang diperlukan sesuai arahan Loan Adviser kami</p>
             </div>
         </div>
         <div class=" col-6 col-lg-3 text-center" >
             <img src="{{asset('assets/Step4.png')}}" class="card-img-center p-1 rounded-4 img-fluid mb-3" alt="Track Progress photo" >
             <div class="card-body">
                 <h6>Track Progress</h6>
-                <p class="card-text">Jika sudah lengkap, Anda tinggal menunggu permintaan Anda disetujui dan siap digunakan</p>
+                <p class="card-text" style="font-size: 10px">Jika sudah lengkap, Anda tinggal menunggu permintaan Anda disetujui dan siap digunakan</p>
             </div>
         </div>
     </div>
+</div>
+
+{{-- section 4 --}}
+<div class="col-12 mb-5" style="margin-top: 4rem">
+
+    <div class="row justify-content-around">
+        <div class=" col-12 text-center mb-4" style="font-family: poppins">
+            <h2 style=" font-weight: bold">Mengapa Cuan Aggregtors?</h2>
+        </div>
+        <div class="col-6 col-lg-4 text-center" >
+            <img src="{{asset('assets/search-vector.png')}}" class="card-img-center p-1 rounded-4 img-fluid mb-3" style="width: 50%" alt="Memilih Produk" >
+            <div class="card-body">
+                <h6>Kejelasan</h6>
+                <p class="card-text" style="font-size: 1px">Anda akan mendapatkan kejelasan mengenai perbedaan antara tipe bunga yang berbeda-beda, semua biaya-biaya yang ditimbulkan pada saat proses, dan juga tahapan-tahapan yang ada.</p>
+            </div>
+        </div>
+        <div class=" col-6 col-lg-4 text-center" >
+            <img src="{{asset('assets/flower-vector.png')}}" class="card-img-center p-1 rounded-4 img-fluid mb-3" style="width: 50%" alt="Konsultasi Dengan Kami photo" >
+            <div class="card-body">
+                <h6>Bunga Terbaik</h6>
+                <p class="card-text" style="font-size: 1px">Dengan pengalaman kami di bidang KPR, kami akan memberitahukan Bunga terbaik yang paling cocok sesuai dengan profile dan juga kebutuhan Anda.</p>
+            </div>
+        </div>
+        <div class=" col-6 col-lg-4 text-center" >
+            <img src="{{asset('assets/free-vector.png')}}" class="card-img-center p-1 rounded-4 img-fluid mb-3" style="width: 50%" alt="Mengisi Data photo" >
+            <div class="card-body">
+                <h6>Gratis</h6>
+                <p class="card-text" style="font-size: 1px">Kami akan membantu dan mendampingi Anda dari pengajuan sampai dengan akad tanpa dikenakan biaya sama sekali</p>
+            </div>
+        </div>
+    </div>
+    
 </div>
 @endsection
