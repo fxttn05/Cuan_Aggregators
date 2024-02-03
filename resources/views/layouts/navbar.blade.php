@@ -50,7 +50,7 @@
                             @if(Route::is('home')) 
                             <li class="nav-item mb-0">
                                 <a class="nav-link active" aria-current="page" href="{{route('home')}}">Beranda</a>
-                                <hr style="margin-top: -1vh; height: 12px; "/>
+                                <hr style="margin-top: -1vh;" class="border border-warning border-2"/>
                             </li>
                             @else
                             <li class="nav-item mb-0">
@@ -62,7 +62,7 @@
                             @if(Route::is('simulasikpr')) 
                             <li class="nav-item mb-0">
                                 <a class="nav-link active" aria-current="page" href="{{route('simulasikpr')}}">Simulasi Perhitungan KPR</a>
-                                <hr style="margin-top: -1vh; size: 12px"/>
+                                <hr style="margin-top: -1vh;"  class="border border-warning border-2"/>
                             </li>
                             @else
                             <li class="nav-item mb-0">
@@ -73,7 +73,7 @@
                             @if(Route::is('tentangkami')) 
                             <li class="nav-item mb-0">
                                 <a class="nav-link active" aria-current="page" href="{{route('tentangkami')}}">Tentang Kami</a>
-                                <hr style="margin-top: -1vh; size: 12px;"/>
+                                <hr style="margin-top: -1vh;"  class="border border-warning border-2"/>
                             </li>
                             @else
                             <li class="nav-item mb-0">
@@ -96,21 +96,25 @@
 
     {{-- footer --}}
     <footer class=" bg-secondary">
-        <div class="mt-5 pt-5 container">
+        <div class="mt-5 py-5 container">
             <div class=" text-white justify-content-md-evenly row">
                 <div class="hubungi-kami col-12 col-md-6 col-lg-4 mb-3">
                     <h6>Hubungi Kami</h6>
-
+                    <p>Sahid Sudirman Center 43E floor<br>Jl. Jend. Sudirman No.86<br>Jakarta Pusat<br>DKI Jakarta, Indonesia 10220</p>
+                    <p>Telepon : +62 852-1084-5762<br>Email : aggregatorscuan@gmail.com<br>Jam Kerja: Senin-Jumat (09.00-17.00)</p>
                 </div>
                 <div class="tentang-kami col-12 col-md-6 col-lg-3 mb-3">
                     <h6>Tentang Kami</h6>
+                    <a href="" class="text-white no-underline">Beranda</a><br>
+                    <a href="" class="text-white no-underline">Tentang Kami</a><br>
+                    <a href="" class="text-white no-underline">Simulasi Hitung KPR</a>
                 </div>
                 <div class="media-sosial col-12 col-md-6 col-lg-4">
                     <h6>Media Sosial</h6>
 
-                    <p>2024 Cuan Aggregators | Kebijakan Privasi</p>
+                    <p>2024 Cuan Aggregators</p>
                 </div>
-                <div class="logo col-12 col-md-6 col-lg-1">
+                <div class="logo col-12 col-md-6 col-lg-1 mb-5">
                     <img src="{{asset('assets/logo.png')}}" style="max-width:3.2rem; max-height: 3rem;" alt="">
                 </div>
             </div>
